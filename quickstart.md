@@ -5,7 +5,7 @@ Installing Máni can be very easy.
 
 Simply execute the following commands below to get Máni.
 ```bash
-    git clone https://github.com/crazywolf132/Mani
+    git clone https://github.com/Mani-Language/Mani
     cd Mani
     ./gradle build
 ```
@@ -13,8 +13,8 @@ This will create a folder called `build` and inside that, `libs`. This is where 
 
 ### Editors
 For your enjoyment, we have created syntaxing for some editors.
-* [Atom](https://github.com/crazywolf132/Mani-Atom)
-* [VSCode](https://github.com/crazywolf132/Mani-vscode)
+* [Atom](https://github.com/Mani-Language/Mani-Atom)
+* [VSCode](https://github.com/Mani-Language/Mani-vscode)
 
 ### Usage
 To run a `.mni` file run the command below.

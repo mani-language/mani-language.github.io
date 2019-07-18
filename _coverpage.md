@@ -18,5 +18,5 @@
 [![](https://forthebadge.com/images/badges/contains-technical-debt.svg)](#)
 [![](https://forthebadge.com/images/badges/check-it-out.svg)](#)
 
-[GitHub](https://github.com/crazywolf132/Mani)
+[GitHub](https://github.com/Mani-Language/Mani)
 [Lets go!](#Mani)
