@@ -65,5 +65,5 @@ Logic operators also return a bool (true or false).
 ~~~ mani
     !1              // False. 1 is true, 0 is false. The oposite to true is false.
     1 and 0         // False. Both must be true to result in true.
-    1 || 0          // True. One or both must be true to continye.
+    1 or 0          // True. One or both must be true to continue.
 ~~~
