@@ -7,7 +7,7 @@ The downloader API is used for fetching files and saving them localy.
 ~~~
 
 ### List of all points
-~~~ Mani
+~~~ mani
     download( );
     urlExists( );
 ~~~
