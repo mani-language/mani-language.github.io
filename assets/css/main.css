@@ -47,6 +47,7 @@
     --sidebar-nav-link-text-decoration--hover     : none;
     --sidebar-nav-link-text-decoration-color      : ;
     --sidebar-nav-link-transition                 : ;
+    --sidebar-nav-link-border-color--active       : ;
    
   	/* Nav Page Links */
     --sidebar-nav-pagelink-background-image             : ;
@@ -177,4 +178,25 @@
 }
 .sidebar li > p {
   font-weight: 700;
+}
+
+/****** CODE HIGHLIGHTING ******/
+.token.string {
+  color: #94FBEA;
+}
+
+.token.keyword {
+  color: #CBEC6B;
+}
+
+.token.operator {
+  color: #FFAB87;
+}
+
+.token.boolean,
+.token.number {
+  color: #93A7FF;
+}
+.token.function, .token.property {
+  color: #FFC805;
 }
