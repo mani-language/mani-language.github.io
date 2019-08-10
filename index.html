@@ -43,12 +43,13 @@
   <script src="assets/js/search.js"></script>
   <script src="assets/js/prism-bash.min.js"></script>
   <script src="assets/js/prism-java.min.js"></script>
+  <script src="https://unpkg.com/docsify-copy-code@2"></script>
   <script type="application/javascript">
     Prism.languages.mani = Prism.languages.extend('clike', {
-      'keyword': /\b(?:for|if|is|private|internal|this|else|return|class|super|while|let|load|#|say|fn|true|false|nil)\b/,
+      'keyword': /\b(?:for|if|is|private|internal|this|else|return|class|super|while|let|load|#|say|fn|true|false|nil|nameset|depreciated)\b/,
       'number': /\b0b[01]+\b|\b0x[\da-f]*\.?[\da-fp-]+\b|(?:\b\d+\.?\d*|\B\.\d+)(?:e[+-]?\d+)?[df]?/i,
       'operator': {
-        pattern: /(^|[^.])(?:\+[+=]?|-[-=]?|!=?|<<?=?|>>?>?=?|==?|&[&=]?|\|[|=]?|\*=?|\/=?|%=?|\^=?|[?:~])/m,
+        pattern: /(^|[^.])(?:\+[+=]?|-[-=]?|!=?|<<?=?|>>?>?=?|==?|&[&=]?|and|\|[|=]?|or|as|\*=?|\/=?|%=?|\^=?|[?:~])/m,
         lookbehind: true
       }
     });
