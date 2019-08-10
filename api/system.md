@@ -16,14 +16,15 @@ of Máni.
 ### Function descriptions
 
 #### online();
-Usage: `online( boolean );`
+***Usage: `online( boolean );`***<br />
 Used to change the internal internet check status
 to the provided boolean value.
 
 > True means there is internet, False means the opposite.
 
 #### compiled();
-Usage: `compiled( boolean );`
+***Usage: `compiled( boolean );`***<br />
 Used to toggle compiled mode or not. This can be used for debugging your
 code to see if it will work inside a compiled program,
 or working out why it isn't working.
+

@@ -15,12 +15,12 @@ This API is used for generating and reading regular JSON code.
 ### Function descriptions
 
 #### json_parse();
-Usage: `json_parse( someJSONText );`
+***Usage: `json_parse( someJSONText );`***<br />
 
 Returns a map created from the json provided.
 
 #### json_encode();
-Usage: `json_encode( mapObject );`
+***Usage: `json_encode( mapObject );`***<br />
 
 Returns a string in JSON format created from the provided map object.
 

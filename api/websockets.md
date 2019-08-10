@@ -31,53 +31,53 @@ They also have slightly different functions.
 ### Function descriptions
 
 #### newSocket();
-Usage: `newSocket("url");`
+***Usage: `newSocket("url");`***<br />
 Used to create a new socket connection with the url provided.
 > It wont naturally start the connection. You must then invoke `.open()`
 
 ### Extension descriptions
 
 #### .open();
-Usage: `socketObject.open( );`
+***Usage: `socketObject.open( );`***<br />
 Used to start the connection to the provided url.
 
 #### .isOpen();
-Usage: `socketObject.isOpen( );`
+***Usage: `socketObject.isOpen( );`***<br />
 Used to return if the socket connection is open or not.
 > Returns a boolean.
 
 #### .sendPing();
-Usage: `socketObject.sendPing( );`
+***Usage: `socketObject.sendPing( );`***<br />
 Used to send a ping message to the server.
 
 #### .sendPong();
-Usage: `socketObject.sendPong( );`
+***Usage: `socketObject.sendPong( );`***<br />
 Used to return a pong message to the server.
 
 #### .getState();
-Usage: `socketObject.getState( );`
+***Usage: `socketObject.getState( );`***<br />
 Used to return the current state of the connection.
 
 #### .on();
-Usage: `socketObject.on( function );`
+***Usage: `socketObject.on( function );`***<br />
 Used to accept any messages from the server.
 There is no way to check what kind of message it is, so we must push it to a function with 1 parameter. This function will then be invoked every time we get a message. From there, you can do as you like with the message.
 
 #### .setHeaders();
-Usage: `socketObject.setHeaders( mapObject );`
+***Usage: `socketObject.setHeaders( mapObject );`***<br />
 Used to set the headers of the socket requests.
 > Map must have a string and value pair, both of string type.
 
 #### .clearHeaders();
-Usage: `socketObject.clearHeaders( );`
+***Usage: `socketObject.clearHeaders( );`***<br />
 Used to clear any set headers on the socket request.
 
 #### .close();
-Usage: `socketObject.close( );`
+***Usage: `socketObject.close( );`***<br />
 Used to close the socket connection to the provided url.
 
 #### .send();
-Usage: `socketObject.send( message );`
+***Usage: `socketObject.send( message );`***<br />
 Used to send a message to the server.
 
 
@@ -101,3 +101,4 @@ connection.on( handler );
 // Opening the connection.
 connection.open( );
 ~~~
+

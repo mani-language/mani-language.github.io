@@ -37,31 +37,31 @@ Used to create a new socket connection with the url provided.
 ### Extension descriptions
 
 #### .open();
-Usage: `socketObject.open( );`
+***Usage: `socketObject.open( );`***<br />
 Used to start the connection to the provided url.
 
 #### .emit();
-Usage: `socketObject.emit( event, message )`
+***Usage: `socketObject.emit( event, message )`***<br />
 Used to emit a packet to the server, with an event message.
 
 #### .send();
-Usage: `socketObject.send( package );`
+***Usage: `socketObject.send( package );`***<br />
 Used to send a package to the server, much like `emit`, but without the event name.
 
 #### .close();
-Usage: `socketObject.close( );`
+***Usage: `socketObject.close( );`***<br />
 Used to close the connection to the provided url.
 
 #### .id();
-Usage: `socketObject.id( );`
+***Usage: `socketObject.id( );`***<br />
 Used to return the ID of the connected socket.
 
 #### .on();
-Usage: `socketObject.on( event, function );`
+***Usage: `socketObject.on( event, function );`***<br />
 Used to run a function when we receive a package with a specified event.
 
 #### .logging();
-Usage: `socketObject.logging( boolean );`
+***Usage: `socketObject.logging( boolean );`***<br />
 Used to toggle on or off the default logging. Simply provide either true or false as the argument.
 
 ### Options for newSocket()
@@ -130,3 +130,4 @@ The path for this will be `http://localhost:4416`.
     s.on("response", handleMessage);
     
 ~~~
+
